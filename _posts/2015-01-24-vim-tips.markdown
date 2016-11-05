@@ -1,0 +1,55 @@
+---
+layout: post
+title: "VIM小技巧"
+date: 2015-01-24 10:47:09 +0800
+categories: vim, tips
+---
+
+## 前言
+
+在用`VIM`的时候，很多方便的技巧一时半伙儿想不起来，还是纪录一下平时学到的东东吧。
+
+> 当前所用的vim是7.3版本的，以下所有在该版本上都支持。
+
+## 自带功能
+
+*对齐线*
+
+对齐线主要是在某一列显示一条从上到下的竖线，可用户控制行的长度和检查缩进是否一直。
+
+`colorcolumn`(cc)在指定的列号处显示，推荐设置`textwidth`(tw)，然后用`cc=+`或者`cc=-`的方式实现。
+
+``` vim
+:set cc=72
+:set cc=+1
+:set cc=-1
+```
+
+`cursorcolumn`(cuc)在当前光标所在列显示。
+
+``` vim
+:set cuc
+:set nocuc
+```
+
+*统计*
+
+``` vim 
+# 统计光标处的信息（行、字、字节等）
+g<C-g>
+```
+
+*编辑二进制*
+
+有时需要修改可执行文件(demo.bin)的某一些数值，寄出vim很方便
+
+{% highlight bash %}
+$ vim -b demo.bin
+# 在vim编辑器中执行命令，用16进制显示
+:%!xxd
+# 修改完了之后还原显示
+:%xxd -r
+# 保存退出
+:wq
+{% endhighlight %}
+
