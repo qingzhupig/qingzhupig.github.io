@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "调试Cocos2dx Android项目"
-date: 2014-01-16 22:54:59 +0800
 categories: development
 ---
 

@@ -1,10 +1,7 @@
 ---
 layout: post
 title: "Python基础教程第二版笔记"
-date: 2013-10-11 16:49:57 +0800
 categories: scripting
-comments: false
-sharing: false
 published: false
 ---
 

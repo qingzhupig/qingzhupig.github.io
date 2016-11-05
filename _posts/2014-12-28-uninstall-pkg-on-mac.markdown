@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "如何卸载pkg安装的软件"
-date: 2014-12-28 21:34:18 +0800
 categories: osx
 ---
 

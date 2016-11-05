@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "VIM小技巧"
-date: 2015-01-24 10:47:09 +0800
-categories: vim, tips
+categories: vim
 ---
 
 ## 前言

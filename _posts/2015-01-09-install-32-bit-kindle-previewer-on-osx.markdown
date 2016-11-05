@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "安装32位的Kindle Previewer"
-date: 2015-01-09 22:43:39 +0800
 categories: osx
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "从CPP代码通过JNI调用Java代码"
-date: 2014-01-13 16:41:37 +0800
 categories: development
 ---
 
@@ -27,7 +26,7 @@ categories: development
 #### 下载文件和设置环境
 从上面的链接中下载OpenUDID，解压之后，查看java文件源码得到包名(com.OpenUDID)，根据包名组织文件夹结构，如下图：
 
-{% highlight bash %}
+``` bash
 $ tree src
 src
 ├── com
@@ -41,14 +40,14 @@ src
         └── OpenUDID_service.java
 
 5 directories, 4 files
-{% endhighlight %}
+```
 
 使用OpenUDID还需要在Android的AndroidManifest.xml中做些设置，具体参考OpenUDID的Readme。
 
 #### 增加Java代码
 显然，直接修改cocos2d-x自带的文件不是一个好的习惯，所以这里我们修改src/com/cocos2dx/test/Test.java，直接上diff -u 的输出:
 
-{% highlight diff %}
+{% highlight diff linenos %}
 $ diff -u src/com/cocos2dx/test/Test.Original.java src/com/cocos2dx/test/Test.java
 --- src/com/cocos2dx/test/Test.Original.java	2014-01-13 17:33:24.000000000 +0800
 +++ src/com/cocos2dx/test/Test.java	2014-01-13 17:27:06.000000000 +0800

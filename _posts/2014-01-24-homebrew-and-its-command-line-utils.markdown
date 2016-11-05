@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "使用Homebrew"
-date: 2014-01-24 10:23:45 +0800
 categories: commandline
 ---
 

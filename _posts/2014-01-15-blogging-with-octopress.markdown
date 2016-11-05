@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "用Octopress写博客"
-date: 2014-01-15 20:16:00 +0800
 categories: misc
+published: false
 ---
 
 #### 前言

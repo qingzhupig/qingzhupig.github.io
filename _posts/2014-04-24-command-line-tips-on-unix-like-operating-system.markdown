@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Unix类系统的一些命令行Tips"
-date: 2014-04-24 13:35:04 +0800
 categories: commandline, tips
 ---
 

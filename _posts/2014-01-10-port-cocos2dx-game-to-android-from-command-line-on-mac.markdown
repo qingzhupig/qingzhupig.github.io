@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Mac下用命令行将Cocos2dx游戏移植到Android平台"
-date: 2014-01-10 16:49:57 +0800
 categories: development
 ---
 
@@ -54,6 +53,7 @@ $ cd ../../projects/Test/proj.android
 
 #### 编译cocos2dx项目
 这里通过模版提供的build_native.sh脚本，调用ndk-build工具来编译cocos2dx项目，得到动态库:
+
 ``` bash
 $ sh build_native.sh
 ```
@@ -92,7 +92,7 @@ List of devices attached
 #### 安装、运行和调试app
 这里说的调试其实只是在命令行下现实logcat的输出:-)
 
-```
+``` bash
 $ adb -d install -r bin/Test-debug.apk
 $ adb shell am start -n com.cocos2dx.test/com.cocos2dx.test.Test
 $ adb -d logcat | grep cocos2d
