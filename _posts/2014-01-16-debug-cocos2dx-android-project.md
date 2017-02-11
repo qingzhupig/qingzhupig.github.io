@@ -26,7 +26,9 @@ categories: development
 设置`Android.mk`和`Application.mk`里的编译选项，不阻止任何的警告信息，即去掉任何`-W`开头的设置，在编译的过程中把所有的警告信息都处理掉。
 
 如有必要，在`Application.mk`中为C和CPP设置`no-stack-protector`编译选项：
-``` bash 去除栈保护机制
+
+``` bash
+# 去除栈保护机制
 $ grep no-stack-protector jni/Application.mk
 # flags for both c and cpp source code
 APP_CFLAGS := -fno-stack-protector
@@ -38,7 +40,9 @@ APP_CFLAGS := -fno-stack-protector
 查看在关键操作调用前后的一些打印输出，借此定位`Bug`大致发生的位置， 然后通过分析源代码来尝试找到`Bug`。
 
 很多时候，`adb logcat`的一些栈信息可读性不高，给问题的定位带来一些难度， 此时可以暂时去掉栈保护机制，使用`ndk-stack`命令将对应的栈信息转化为可读的函数调用信息。
-``` bash 使用ndk-stack查看logcat信息
+
+``` bash
+# 使用ndk-stack查看logcat信息
 adb -d logcat | ndk-stack -sym obj/local/armeabi/
 ```
 
