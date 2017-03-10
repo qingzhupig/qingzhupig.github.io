@@ -29,3 +29,36 @@ $ grep -iR 'pattern' . | cut -d: -f1 | cut -d'/' -f2- | xargs -I{} rsync -avR {}
 $ find . -type f -print0 | xargs -0 perl -pi -e 's/iPhone/iPhone 4S/g'
 ```
 
+> 批量重命名
+
+``` bash
+$ tree
+.
+├── a
+│   ├── a.txt
+│   ├── b.txt
+│   └── c
+│       ├── a.txt
+│       ├── b.txt
+├── a.txt
+├── b.txt
+├── c.tar
+└── d.tar.gz
+# 将当前文件下的每一个.txt文件，改名为_backup.txt
+$ for name in `find . -type f -name "*.txt"`
+> do
+> mv $name `dirname $name`/`basename $name .txt`_backup.txt
+> done
+$ tree
+.
+├── a
+│   ├── a_backup.txt
+│   ├── b_backup.txt
+│   └── c
+│       ├── a_backup.txt
+│       └── b_backup.txt
+├── a_backup.txt
+├── b_backup.txt
+├── c.tar
+└── d.tar.gz
+```
