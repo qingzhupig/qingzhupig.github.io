@@ -11,9 +11,10 @@ permalink: /reading/
 ------
 
 #### 2017-03
-- [《大型网站技术架构：核心原理与案例分析》](https://item.jd.com/11322972.html?dist=jd)
 - [秒杀业务架构优化之路](http://mp.weixin.qq.com/s?__biz=MzI4NzE1NTYyMg==&amp;mid=402348782&amp;idx=1&amp;sn=8fb1a9c255e50ebeb1c37c92af33895e&amp;scene=2&amp;srcid=0324gzF4iGZijhTgxXbshtFu&amp;from=timeline&amp;isappinstalled=0#wechat_redirect&utm_source=tuicool&utm_medium=referral)
 - [淘宝大秒系统设计详解](https://yq.aliyun.com/articles/64762)
+- [《大型网站技术架构：核心原理与案例分析》](https://item.jd.com/11322972.html?dist=jd)
+- [Try Redis](http://try.redis.io/)
 
 #### 2017-02
 - [Java代理和动态代理机制分析和应用](http://www.jianshu.com/p/861223789d53)
@@ -21,5 +22,4 @@ permalink: /reading/
 - [Spring AOP JDK动态代理vs Cglib](http://www.jasongj.com/design_pattern/dynamic_proxy_cglib/)
 - [事务的隔离级别](https://segmentfault.com/a/1190000004469395)
 - [分布式系统的事务处理](http://coolshell.cn/articles/10910.html)
-- [Try Redis](http://try.redis.io/)
 
