@@ -21,6 +21,8 @@ public class Queue {
     private final int[] queues;
 
     public Queue(int n) {
+        if (n < 1) throw new IllegalArgumentException("positive queue count required");
+
         this.queues = new int[n];
         for (int i = 0; i < n; ++n) {
             queues[i] = EMPTY;
@@ -66,9 +68,16 @@ public class Queue {
     }
 
     public static void main(String[] args) {
-        int N = 5;
+        int N = 4;
         new Queue(N).findAvailableSets(queues -> System.out.println(Arrays.toString(queues)));
     }
 }
+```
+
+执行结果：
+
+```
+[1, 3, 0, 2]
+[2, 0, 3, 1]
 ```
 
