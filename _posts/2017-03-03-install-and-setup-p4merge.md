@@ -34,10 +34,6 @@ CMD="/usr/local/p4v/bin/p4merge"
 ${CMD} "$2" "$5"
 ```
 
-#### Mac OS X下的安装和配置
-
-**TODO**
-
 #### 设置`git`
 ``` bash
 $ git config --global merge.tool p4merge
@@ -45,3 +41,7 @@ $ git config --global mergetool.p4merge.cmd 'p4merge "$BASE" "$LOCAL" "$REMOTE" 
 $ git config --global mergetool.trustExitCode false
 $ git config --global diff.external p4diff
 ```
+
+#### Mac OS X下的安装和配置
+
+**TODO**

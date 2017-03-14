@@ -15,17 +15,17 @@ categories:
 import java.util.Arrays;
 import java.util.function.Consumer;
 
-public class Queue {
+public class Queen {
     private static int EMPTY = -1;
 
-    private final int[] queues;
+    private final int[] queens;
 
-    public Queue(int n) {
-        if (n < 1) throw new IllegalArgumentException("positive queue count required");
+    public Queen(int n) {
+        if (n < 1) throw new IllegalArgumentException("positive queen count required");
 
-        this.queues = new int[n];
+        this.queens = new int[n];
         for (int i = 0; i < n; ++n) {
-            queues[i] = EMPTY;
+            queens[i] = EMPTY;
         }
     }
 
@@ -34,15 +34,15 @@ public class Queue {
     }
 
     private void put(int row, Consumer<int[]> onSetup) {
-        if (row == queues.length) {
-            onSetup.accept(queues);
+        if (row == queens.length) {
+            onSetup.accept(queens);
         }
         else {
-            for (int ci = 0; ci < queues.length; ++ci) {
+            for (int ci = 0; ci < queens.length; ++ci) {
                 if (isSafe(row, ci)) {
-                    queues[row] = ci;
+                    queens[row] = ci;
                     put(row + 1, onSetup);
-                    queues[row] = EMPTY;
+                    queens[row] = EMPTY;
                 }
             }
         }
@@ -51,15 +51,15 @@ public class Queue {
     private boolean isSafe(int row, int col) {
         // check based on col equality
         for (int ri = 0; ri < row; ++ri) {
-            if (queues[ri] == col) {
+            if (queens[ri] == col) {
                 return false;
             }
         }
 
         // check on diagonal line
         for (int ri = 0; ri < row; ++ri) {
-            int c = queues[ri];
-            if (c != -1 && Math.abs(queues[ri] - col) == Math.abs(ri - row)) {
+            int c = queens[ri];
+            if (c != -1 && Math.abs(queens[ri] - col) == Math.abs(ri - row)) {
                 return false;
             }
         }
@@ -69,7 +69,7 @@ public class Queue {
 
     public static void main(String[] args) {
         int N = 4;
-        new Queue(N).findAvailableSets(queues -> System.out.println(Arrays.toString(queues)));
+        new Queen(N).findAvailableSets(queens -> System.out.println(Arrays.toString(queens)));
     }
 }
 ```
