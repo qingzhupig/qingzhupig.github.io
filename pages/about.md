@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 关于本站
-permalink: /about/
+permalink: /about
 ---
 
 > 仅记录一些折腾和工作中的一些小经验，不见得正确，供参考。

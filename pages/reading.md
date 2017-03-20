@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 阅读清单
-permalink: /reading/
+permalink: /reading
 ---
 
 > 记录一下看过的书，有价值的文章
