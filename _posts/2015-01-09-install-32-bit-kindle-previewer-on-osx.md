@@ -34,7 +34,7 @@ $ ./Launcher
 Error: This Java instance does not support a 32-bit JVM.
 Please install the desired version.
 # 安装后系统支持的Java版本
-$ /usr/libexec/home_java -V
+$ /usr/libexec/java_home -V
 Matching Java Virtual Machines (3):
     1.8.0_25, x86_64:	"Java SE 8"	/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home
     1.6.0_65-b14-466.1, x86_64:	"Java SE 6"	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
