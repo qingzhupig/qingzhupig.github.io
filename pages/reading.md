@@ -15,8 +15,8 @@ permalink: /reading
 - [Content Security Policy CSP Reference & Examples](https://content-security-policy.com)
 
 #### 2017-06
-- [Maven: Add Local JAR Dependency to Classpath](mark.koli.ch/maven-add-local-jar-dependency-to-classpath?utm_source=tuicool&utm_medium=referral)
-- [Git Workflows and Tutorials | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows)
+- [Maven: Add Local JAR Dependency to Classpath](http://mark.koli.ch/maven-add-local-jar-dependency-to-classpath?utm_source=tuicool&utm_medium=referral)
+- [Git Workflows and Tutorials](https://www.atlassian.com/git/tutorials/comparing-workflows)
 - [revert-a-faulty-merge](https://opensource.apple.com/source/Git/Git-26/src/git-htmldocs/howto/revert-a-faulty-merge.txt)
 
 #### 2017-03
