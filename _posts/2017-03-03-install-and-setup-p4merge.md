@@ -7,11 +7,11 @@ categories:
 
 `p4merge`是一个图形化的`diff`与`merge`工具，界面简洁，我很喜欢。这里记录一下安装`p4merge`的过程、设置`git`使用`p4merge`。
 
-#### Debian Linux下的安装和配置
+> 本文适合Debian Linux和Mac OS X
 
-到[官方网站](https://www.perforce.com/downloads/helix#clients)下载，得到`p4v.tgz`文件
+到[官方网站](https://www.perforce.com/downloads/helix#clients), 找到`HELIX P4V: VISUAL CLIENT`, 选择合适的版本下载，得到`p4v.tgz`文件
 
-*安装*
+#### 安装
 
 ``` bash
 $ sudo mkdir /usr/local/p4v
@@ -19,7 +19,7 @@ $ sudo tar --strip-components=1 -xvzf p4v.tgz -C /usr/local/pv4
 $ sudo chown -R root:staff /usr/local/p4v
 ```
 
-*创建实际使用的shell脚本*
+#### 创建实际使用的shell脚本
 
 ``` bash
 $ cat /usr/local/bin/p4merge
@@ -41,7 +41,3 @@ $ git config --global mergetool.p4merge.cmd 'p4merge "$BASE" "$LOCAL" "$REMOTE" 
 $ git config --global mergetool.trustExitCode false
 $ git config --global diff.external p4diff
 ```
-
-#### Mac OS X下的安装和配置
-
-**TODO**
