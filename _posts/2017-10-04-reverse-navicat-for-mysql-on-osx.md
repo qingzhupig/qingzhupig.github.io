@@ -6,7 +6,7 @@ categories: reverse, osx
 
 ## 申明
 
-本文仅从学习和研究的视角来分析`Navicat for MySQL`，不提供最终可运行的具体文件。
+本文仅从学习和研究的视角来分析`Navicat for MySQL`。
 
 ## 源起
 
@@ -190,6 +190,41 @@ $ class-dump navicat > header.h
 ## 尾声
 
 对`Navicat for MySQL`的逆向分析就此告一段落，也算是对逆向有个实践性的认识。待汇编功底补上来之后，再尝试从汇编的角度去看一看。
+
+## 后记
+
+偶然想起来看看`defaults`里有哪些东西，没想到有了新发现，找到一直试用的方法了，嘿嘿...
+
+``` bash
+$ defaults read com.prect.NavicatForMySQL12
+{
+    CCPreferences =     {
+        "MainWin.ConnTreeWidth" = 240;
+        "MainWin.DiagramNavigatorHeight" = 200;
+        "MainWin.DiagramNavigatorWidth" = 200;
+        "MainWin.DiagramShowNavigator" = 1;
+        "MainWin.InfoViewWidth" = 316;
+    };
+    NSInitialToolTipDelay = 100;
+    NSNavLastRootDirectory = "~/Desktop";
+    NSNavPanelExpandedSizeForOpenMode = "{913, 426}";
+    NSNavPanelExpandedSizeForSaveMode = "{712, 448}";
+    "NSSplitView Subview Frames NavicatMainSplitViewAutosave" =     (
+        "0.000000, 0.000000, 240.000000, 609.000000, NO, NO",
+        "241.000000, 0.000000, 1038.000000, 609.000000, NO, NO",
+        "964.000000, 0.000000, 316.000000, 609.000000, YES, NO"
+    );
+    "NSWindow Frame NavicatNSYAccountWindowAutosave" = "320 55 640 722 0 0 1280 777 ";
+    "NSWindow Frame NavicatPreferencesAutosave" = "320 590 883 187 0 0 1280 777 ";
+    "NSWindow Frame NavicatWindowsFrameAutosave" = "0 122 1280 655 0 0 1280 777 ";
+    SUEnableAutomaticChecks = 0;
+    SUHasLaunchedBefore = 1;
+    SUSendProfileInfo = 0;
+    didNAV12WelcomePageShow = 1;
+    ptc120 = 20170803;
+    ptcl120 = 20170803;
+}
+```
 
 参考文档:
 
