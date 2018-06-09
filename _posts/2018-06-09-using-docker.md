@@ -14,7 +14,7 @@ $ docker pull mysql/mysql-server
 ## 创建容器，设置初始化密码
 $ docker run -it -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=xxx --name mysql mysql/mysql-server:latest
 ## 登陆并创建host可访问的用户
-$ docker exec -it mysql mysql -uroot -pxxx 
+$ docker exec -it mysql mysql -uroot -p 
 mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'xxxxxx';
 mysql> FLUSH PRIVILEGES;
 ## host中登陆，需要使用127.0.0.1
