@@ -73,7 +73,7 @@ $ plutils -p com.ccs.pkg.plist | grep InstallPrefixPath
   "InstallPrefixPath" => "Applications"
 $ lsbom -pf com.ccs.pkg.bom | cut -d'/' -f2 | sort | uniq
 .
-$ plutils -p com.sample.pkg.plist | grep InstallPrefixPath
+$ plutil -p com.sample.pkg.plist | grep InstallPrefixPath
   "InstallPrefixPath" => "Library/Application Support/Cocos/CocosStudio2"
 $ lsbom -pf com.sample.pkg.bom | cut -d'/' -f2 | uniq
 .
