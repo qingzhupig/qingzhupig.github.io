@@ -32,4 +32,13 @@ $ docker run -it -d -p 80:80 -p 443:443 -p 22:22 --name gitlab -v /opt/gitlab/co
 ## 访问 http://localhost
 ```
 
+## `Zookeeper`
+
+``` bash
+$ docker pull zookeeper
+$ docker run -it -d -p 2181:2181 -p 2888:2888 -p 3888:3888 --name zk zookeeper
+## 连接zookeeper
+$ docker exec -it zk zkCli.sh
+```
+
 TO BE CONTINUE...
