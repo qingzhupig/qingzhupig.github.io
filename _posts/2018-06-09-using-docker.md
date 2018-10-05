@@ -10,12 +10,17 @@ categories: docker, mysql
 
 ``` bash
 ## 下载镜像
-$ docker pull mysql/mysql-server
+$ docker pull mysql
 ## 创建容器，设置初始化密码
-$ docker run -it -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=xxx --name mysql mysql/mysql-server:latest
+$ docker run -it -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=xxx --name mysql mysql
 ## 登陆并创建host可访问的用户
 $ docker exec -it mysql mysql -uroot -p 
+## MySQL 8之前的版本
 mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'xxxxxx';
+## MySQL 8
+## 使用native方式加密，加密方式可通过SELECT Host, User, plugin FROM mysql.user;查看
+mysql> ALTER USER 'root'@'%' IDENTIFIED WITH MYSQL_NATIVE_PASSWORD BY 'xxxxxx';
+mysql> GRANT ALL ON *.* TO 'root'@'%';
 mysql> FLUSH PRIVILEGES;
 ## host中登陆，需要使用127.0.0.1
 $ mysql -uroot -p -h 127.0.0.1
