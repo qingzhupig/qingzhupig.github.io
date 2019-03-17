@@ -11,6 +11,7 @@ permalink: /reading
 ------
 
 #### 2019-03
+- [《实现领域驱动设计》](https://u.jd.com/I1I5rt)
 - [How to Install Oracle JDK 8 on Debian](https://www.mkyong.com/java/how-to-install-oracle-jdk-8-on-debian/)
 - [一文了解JVM全部垃圾回收器，从Serial到ZGC](https://juejin.im/post/5bade237e51d450ea401fd71)
 - [RabbitMQ 100%投递成功方案详解](https://juejin.im/post/5c4942f36fb9a04a0e2d8b4e)
@@ -106,7 +107,7 @@ permalink: /reading
 #### 2017-03
 - [秒杀业务架构优化之路](http://mp.weixin.qq.com/s?__biz=MzI4NzE1NTYyMg==&amp;mid=402348782&amp;idx=1&amp;sn=8fb1a9c255e50ebeb1c37c92af33895e&amp;scene=2&amp;srcid=0324gzF4iGZijhTgxXbshtFu&amp;from=timeline&amp;isappinstalled=0#wechat_redirect&utm_source=tuicool&utm_medium=referral)
 - [淘宝大秒系统设计详解](https://yq.aliyun.com/articles/64762)
-- [《大型网站技术架构：核心原理与案例分析》](https://item.jd.com/11322972.html?dist=jd)
+- [《大型网站技术架构：核心原理与案例分析》](https://u.jd.com/fLvbWM)
 - [Try Redis](http://try.redis.io/)
 - [强迫症的Mac设置指南](https://github.com/macdao/ocds-guide-to-setting-up-mac)
 - [UML类图与类的关系详解](http://www.uml.org.cn/oobject/201104212.asp)
