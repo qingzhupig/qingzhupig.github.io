@@ -62,3 +62,14 @@ $ tree
 ├── c.tar
 └── d.tar.gz
 ```
+
+#### Tips for python 3.x
+
+> 查看汉字的unicode和utf8编码
+
+```python
+>>> '严'.encode("unicode-escape")
+b'\\u4e25'
+>>> '严'.encode("utf8")
+b'\xe4\xb8\xa5'
+```
