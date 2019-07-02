@@ -11,6 +11,7 @@ permalink: /reading
 
 ## 书单
 
+- [《Head First Object-Oriented Analysis & Design》](https://item.jd.com/47161141190.html)
 - [《实现领域驱动设计》](https://u.jd.com/I1I5rt)
 - [《大型网站技术架构：核心原理与案例分析》](https://u.jd.com/fLvbWM)
 
