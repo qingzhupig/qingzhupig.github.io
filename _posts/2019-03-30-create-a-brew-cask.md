@@ -25,9 +25,6 @@ $ shasum -a 256 TencentVideo.dmg
 503a89359032692d5651c75073c20705e95da6c6b94e86c3e98120d442490f3c TencentVideo.dmg
 ```
 
-`zap`段参考`qqmusic`的`cask`。
-
-
 ## 0x03 创建cask
 
 ``` bash
@@ -54,6 +51,8 @@ cask 'tenvideo' do
               ]
 end
 ```
+
+注: `zap`段参考`qqmusic`的`cask`。
 
 创建好之后就可以通过`brew cask install tenvideo`来安装，通过`brew cask zap tenvideo`来卸载。
 
