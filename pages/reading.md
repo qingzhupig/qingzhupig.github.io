@@ -14,8 +14,56 @@ permalink: /reading
 - [《Head First Object-Oriented Analysis & Design》](https://item.jd.com/47161141190.html)
 - [《实现领域驱动设计》](https://u.jd.com/I1I5rt)
 - [《大型网站技术架构：核心原理与案例分析》](https://u.jd.com/fLvbWM)
+- [《领域驱动设计》](https://u.jd.com/rlmAVP)
+- [《Java并发编程的艺术》](https://u.jd.com/rlmAVP)
 
 ## web学习
+
+## 2019-07
+- [SQL查询之执行顺序解析]([http://zouzls.github.io/2017/03/23/SQL%E6%9F%A5%E8%AF%A2%E4%B9%8B%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F%E8%A7%A3%E6%9E%90/](http://zouzls.github.io/2017/03/23/SQL查询之执行顺序解析/))
+- [漫画：什么是Bitmap算法？](https://juejin.im/post/5c4fd2af51882525da267385)
+- [Filterer Pattern](https://dzone.com/articles/the-filterer-pattern)
+- [不可不知的socket和TCP连接过程](https://www.cnblogs.com/f-ck-need-u/p/7623252.html)
+- [Tcpdump Examples](https://hackertarget.com/tcpdump-examples/)
+
+## 2019-06
+- [深入了解MyBatis参数](https://blog.csdn.net/isea533/article/details/44002219)
+- [FTP的主动模式和被动模式](https://www.cnblogs.com/mawanglin2008/articles/3607767.html)
+
+## 2019-05
+- [The DATE, DATETIME, and TIMESTAMP Types](https://dev.mysql.com/doc/refman/8.0/en/datetime.html)
+- [What is Unified Modeling Language (UML)?](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml/)
+- [单点登录（SSO）看这一篇就够了](https://yq.aliyun.com/articles/636281)
+- [优雅的使用slf4j](https://www.jianshu.com/p/7b5860be190f)
+- [面试前必须要知道的Redis面试题](https://mp.weixin.qq.com/s/3Fmv7h5p2QDtLxc9n1dp5A)
+- [缓存更新的套路](https://coolshell.cn/articles/17416.html)
+- [ArchLinux安装配置WineQQ]([https://whoisnian.com/2017/07/23/ArchLinux%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEWineQQ/](https://whoisnian.com/2017/07/23/ArchLinux安装配置WineQQ/))
+- [Ubuntu使用winetrick登录微信和企业微信教程](https://www.2cto.com/kf/201810/783291.html)
+- [如何在Debian中启用测试版/不稳定版的软件库](https://linux.cn/article-3288-1.html?pr)
+- [MySQL UPDATE语句一个“经典”的坑](http://ju.outofmemory.cn/entry/336774)
+- [dubbo源码解析（二）Dubbo扩展机制SPI](https://segmentfault.com/a/1190000016842868)
+- [Dubbo中SPI扩展机制解析]([http://cxis.me/2017/02/18/Dubbo%E4%B8%ADSPI%E6%89%A9%E5%B1%95%E6%9C%BA%E5%88%B6%E8%A7%A3%E6%9E%90/](http://cxis.me/2017/02/18/Dubbo中SPI扩展机制解析/))
+- [非对称加密和证书总结](https://tlanyan.me/asymmetric-encryption-and-certificate-summary/)
+- [数字签名是什么？](http://www.ruanyifeng.com/blog/2011/08/what_is_a_digital_signature.html)
+- [持续集成服务 Travis CI 教程](http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html)
+- [YAML 语言教程](http://www.ruanyifeng.com/blog/2016/07/yaml.html)
+
+#### 2019-04
+- [Jackson – Custom Serializer](https://www.baeldung.com/jackson-custom-serialization)
+- [Jackson Annotation Examples](https://www.baeldung.com/jackson-annotations)
+- [跨域资源共享 CORS 详解](http://www.ruanyifeng.com/blog/2016/04/cors.html)
+- [浏览器同源政策及其规避方法](http://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html)
+- [详解 Spring Session 架构与设计](https://segmentfault.com/a/1190000018385703)
+- [深入理解Spring异常处理](https://segmentfault.com/a/1190000018010162)
+- [SpringBoot优雅编码之：Lombok加持](https://segmentfault.com/a/1190000014247338)
+- [Intellij IDEA神器居然还有这些小技巧](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247485107&idx=1&sn=8903b905bc4e8df927ea1ad543f1afeb&chksm=ebd747b2dca0cea416308355a20306428c293a8f3c5304cf746631a1077f6be5d59990c7de6a&mpshare=1&scene=1&srcid=0418xenHmnxrkSizowN0QcKD&pass_ticket=p2Pj48RbJ%2FGtgSCuXoMBVKXNYfTFvNuyj7B8h6Npj92WPWKZENlWdUoiZ6GrPUJT#rd)
+- [IntelliJ IDEA 常用插件一览，让效率成为习惯](https://mp.weixin.qq.com/s?__biz=MzA5NDg3MjAwMQ==&mid=2457102915&idx=1&sn=435da4cc48c8d6fd54a9df92008a2112&chksm=87c8c2edb0bf4bfb80a35f22f5e23afdb0ecfd390e4728e150921b0e287e0adf939856d26520&mpshare=1&scene=1&srcid=0418UG6b0IUGmYHbMzzPOHst&pass_ticket=p2Pj48RbJ%2FGtgSCuXoMBVKXNYfTFvNuyj7B8h6Npj92WPWKZENlWdUoiZ6GrPUJT#rd)
+- [永远不要在 MySQL 中使用 UTF-8](https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&mid=2247486754&idx=1&sn=9a36b5dd60db9b31ed31c725bbc5ac1f&chksm=fa497293cd3efb85733b6524318798bd66e05b94d582f597821ae7795f33c08cd230cfaccca7&token=337706394&lang=zh_CN&pass_ticket=cTV3cRhUKMl7ttQpcBTaGKTEU5ZMptnAwnJ%2BEiwYM2L3aTIlIKZGNtUBMV%2BE3aVJ#rd)
+- [HttpClient 4.3连接池参数配置及源码解读](https://www.bbsmax.com/A/pRdBWv3azn/)
+- [HttpClient Timeout](https://www.baeldung.com/httpclient-timeout)
+- [Copy-On-Write 101 – Part 1: What Is It?](https://hackerboss.com/copy-on-write-101-part-1-what-is-it/)
+- [Copy-On-Write 101 – Part 2: Putting It to Use](https://hackerboss.com/copy-on-write-101-part-2-putting-it-to-use/)
+- [Lower bounds: queues that return their min elements in O(1)O(1) time](https://cs.stackexchange.com/questions/6146/lower-bounds-queues-that-return-their-min-elements-in-o1-time)
 
 #### 2019-03
 - [How to Install Oracle JDK 8 on Debian](https://www.mkyong.com/java/how-to-install-oracle-jdk-8-on-debian/)
