@@ -30,6 +30,9 @@ permalink: /reading
 - [react中antd的引用完整流程介绍](https://segmentfault.com/a/1190000019437110?utm_source=tag-newest)
 	[Table: empty space between columns when using fixed columns](https://github.com/ant-design/ant-design/issues/14689)
 - [A Beautiful Race Condition](https://mailinator.blogspot.com/2009/06/beautiful-race-condition.html)
+- [有了四步解题法模板，再也不害怕动态规划！](https://mp.weixin.qq.com/s/erJPc8Xx9BBXY1ZiEXVvKg)
+- [（进阶版）有了四步解题法模板，再也不害怕动态规划！](https://mp.weixin.qq.com/s/15RW2DstBNXNFz7xuzbDig)
+- [（再进阶版）有了四步解题法模板，再也不害怕动态规划！](https://mp.weixin.qq.com/s/RPBRysbX7wgW_vnPNqloYA)
 
 #### 2019-10
 - [Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding)
@@ -44,6 +47,16 @@ permalink: /reading
   [微信安装完成后中文乱码，添加LC_ALL变量后正常](https://github.com/hillwoodroc/winetricks-zh/issues/66)
   [How to use QQ and WeChat on Ubuntu 16.04 LTS?](https://askubuntu.com/questions/788017/how-to-use-qq-and-wechat-on-ubuntu-16-04-lts/1133157#1133157)
   [Wine的中文显示与字体设置](http://linux-wiki.cn/wiki/Wine%E7%9A%84%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E4%B8%8E%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE)
+- [Difference between Url Encode and HTML encode](https://stackoverflow.com/questions/1812473/difference-between-url-encode-and-html-encode)
+- [Properly encoding and escaping for the web](https://www.onwebsecurity.com/security/properly-encoding-and-escaping-for-the-web.html)
+- [用了这么久HTTP, 你是否了解Content-Length?](https://www.cnblogs.com/fundebug/p/understand-http-content-length.html)
+- [Be cautious about Content-Length HTTP headers](https://sankhs.com/2016/03/17/content-length-http-headers/)
+- [Transfer-Encoding](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Transfer-Encoding)
+- [我是如何走进黑客世界的？](https://www.freebuf.com/articles/neopoints/190895.html)
+- [USEFUL ONLINE RESOURCES FOR NEW HACKERS](https://www.hackerone.com/blog/resources-for-new-hackers)
+- [Testing for HTTP Splitting/Smuggling](https://wiki.owasp.org/index.php/Testing_for_HTTP_Splitting/Smuggling_(OTG-INPVAL-016))
+- [HTTP request smuggling](https://portswigger.net/web-security/request-smuggling)
+	[HTTP Desync Attacks: Request Smuggling Reborn](https://portswigger.net/research/http-desync-attacks-request-smuggling-reborn)
 
 #### 2019-09
 - [简单了解 RPC 实现原理](http://www.iocoder.cn/RPC/laoxu/easy-know-rpc/)
@@ -55,6 +68,7 @@ permalink: /reading
 - [MySQL Orderby a number, Nulls last](https://stackoverflow.com/questions/2051602/mysql-orderby-a-number-nulls-last)
 - [Difference between <? super T> and <? extends T> in Java](https://stackoverflow.com/questions/4343202/difference-between-super-t-and-extends-t-in-java)
 - [老大难的 Java ClassLoader 再不理解就老了](https://juejin.im/post/5c04892351882516e70dcc9b)
+- [我竟然不再抗拒 Java 的类加载机制了](https://mp.weixin.qq.com/s/ufbTIhRqtW2B1E4SjSZVOQ)
 - [DDD战略建模在重构业务系统时的实践](https://mp.weixin.qq.com/s?__biz=MzIzMzk2NDQyMw==&mid=2247489065&idx=1&sn=7e026eb599bb1cc7180c098339847ce5&chksm=e8fcc0c1df8b49d7b9c0cd39f954c3fe02a4f2aa04748075103be60fb4fb10f6eb2d42a7e243&mpshare=1&scene=1&srcid=&sharer_sharetime=1566449380380&sharer_shareid=2f52b39fcaeb29228c1ea4d144e0681e&pass_ticket=1ZAJ4uFfnW5oZyRvxnnTH24Yze1tVNAwwhM2bU3vP63bj818gteuoQ2h3G%2BFUCzb#rd)
 
 #### 2019-07
@@ -63,6 +77,9 @@ permalink: /reading
 - [Filterer Pattern](https://dzone.com/articles/the-filterer-pattern)
 - [不可不知的socket和TCP连接过程](https://www.cnblogs.com/f-ck-need-u/p/7623252.html)
 - [Tcpdump Examples](https://hackertarget.com/tcpdump-examples/)
+- [GitHub Pages](https://pages.github.com/)
+- [Webpack中hash与chunkhash的区别，以及js与css的hash指纹解耦方案](https://www.cnblogs.com/ihardcoder/p/5623411.html)
+- [Spring 揭秘 -- 寻找遗失的 web.xml](https://www.cnkirito.moe/servlet-explore/)
 
 #### 2019-06
 - [深入了解MyBatis参数](https://blog.csdn.net/isea533/article/details/44002219)
