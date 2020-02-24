@@ -4,7 +4,7 @@ title: 阅读清单
 permalink: /reading
 ---
 
-> 记录一下看过的书，有价值的文章
+> 记录一下看过的书，有价值或者有帮助的文章
 
 记得时常回顾啊，少年;-(
 ------
@@ -16,8 +16,46 @@ permalink: /reading
 - [《大型网站技术架构：核心原理与案例分析》](https://u.jd.com/fLvbWM)
 - [《领域驱动设计》](https://u.jd.com/rlmAVP)
 - [《Java并发编程的艺术》](https://u.jd.com/rlmAVP)
+- [《Redis设计与实现》](https://item.jd.com/1222800710.html)
 
 ## web学习
+
+#### 2019-12
+- [Importing with Absolute Paths using webpack in JavaScript/TypeScript](https://spin.atomicobject.com/2017/10/07/absolute-paths-javascript/)
+- [How to avoid relative path hell in JavaScript / TypeScript projects](https://goenning.net/2017/07/21/how-to-avoid-relative-path-hell-javascript-typescript-projects/)
+- [CAP Theorem: Revisited](https://robertgreiner.com/cap-theorem-revisited/)
+- 
+
+#### 2019-11
+- [react中antd的引用完整流程介绍](https://segmentfault.com/a/1190000019437110?utm_source=tag-newest)
+	[Table: empty space between columns when using fixed columns](https://github.com/ant-design/ant-design/issues/14689)
+- [A Beautiful Race Condition](https://mailinator.blogspot.com/2009/06/beautiful-race-condition.html)
+
+#### 2019-10
+- [Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding)
+- [领域驱动设计在互联网业务开发中的实践](https://zhuanlan.zhihu.com/p/32459776)
+- [谈谈领域建模](http://www.fanyilun.me/2018/04/08/%E8%B0%88%E8%B0%88%E9%A2%86%E5%9F%9F%E5%BB%BA%E6%A8%A1/)
+- [运用四色建模法进行领域分析](https://www.infoq.cn/article/xh-four-color-modeling)
+- [从“四色建模法”到“限界纸笔建模法”](https://insights.thoughtworks.cn/paper-pen-modeling/)
+- [How to solve IllegalStateException Unable to find @SpringBootConfiguration exception](https://www.bswen.com/2017/02/springboot-Unable-to-find-a-SpringBootConfiguration.html)
+- [Linux下通过Wine安装微信](https://zhuanlan.zhihu.com/p/76331687)
+	[Installing WineHQ packages](https://wiki.winehq.org/Debian)
+  [Winetricks](https://wiki.winehq.org/Winetricks)
+  [微信安装完成后中文乱码，添加LC_ALL变量后正常](https://github.com/hillwoodroc/winetricks-zh/issues/66)
+  [How to use QQ and WeChat on Ubuntu 16.04 LTS?](https://askubuntu.com/questions/788017/how-to-use-qq-and-wechat-on-ubuntu-16-04-lts/1133157#1133157)
+  [Wine的中文显示与字体设置](http://linux-wiki.cn/wiki/Wine%E7%9A%84%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E4%B8%8E%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE)
+
+#### 2019-09
+- [简单了解 RPC 实现原理](http://www.iocoder.cn/RPC/laoxu/easy-know-rpc/)
+- [Expires、Last-Modified、Etag缓存控制](https://www.cnblogs.com/zhouwenhong/p/3928645.html)
+
+#### 2019-08
+- [AliasFor](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/core/annotation/AliasFor.html)
+- [How To Order NULL Values First Or Last In MySQL?](https://www.designcise.com/web/tutorial/how-to-order-null-values-first-or-last-in-mysql)
+- [MySQL Orderby a number, Nulls last](https://stackoverflow.com/questions/2051602/mysql-orderby-a-number-nulls-last)
+- [Difference between <? super T> and <? extends T> in Java](https://stackoverflow.com/questions/4343202/difference-between-super-t-and-extends-t-in-java)
+- [老大难的 Java ClassLoader 再不理解就老了](https://juejin.im/post/5c04892351882516e70dcc9b)
+- [DDD战略建模在重构业务系统时的实践](https://mp.weixin.qq.com/s?__biz=MzIzMzk2NDQyMw==&mid=2247489065&idx=1&sn=7e026eb599bb1cc7180c098339847ce5&chksm=e8fcc0c1df8b49d7b9c0cd39f954c3fe02a4f2aa04748075103be60fb4fb10f6eb2d42a7e243&mpshare=1&scene=1&srcid=&sharer_sharetime=1566449380380&sharer_shareid=2f52b39fcaeb29228c1ea4d144e0681e&pass_ticket=1ZAJ4uFfnW5oZyRvxnnTH24Yze1tVNAwwhM2bU3vP63bj818gteuoQ2h3G%2BFUCzb#rd)
 
 #### 2019-07
 - [SQL查询之执行顺序解析]([http://zouzls.github.io/2017/03/23/SQL%E6%9F%A5%E8%AF%A2%E4%B9%8B%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F%E8%A7%A3%E6%9E%90/](http://zouzls.github.io/2017/03/23/SQL查询之执行顺序解析/))
