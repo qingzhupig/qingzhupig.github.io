@@ -5,6 +5,12 @@ date: 2017-03-03 20:21:10 +0800
 categories: 
 ---
 
+#### Updated: 2020-03-04
+
+* `Mac OS X`下需要使用`CMD + Q`退出上一个文件，才能查看下一个文件
+* `Mac OS X`下，如果有`rename`的变更时，会在对比到该文件时报错退出，此时可以使用`git diff --no-renames`来跳过`rename`
+* 当高亮显示的变更错位时，选择一个合适的字体会好很多
+
 `p4merge`是一个图形化的`diff`与`merge`工具，界面简洁，我很喜欢。这里记录一下安装`p4merge`的过程、设置`git`使用`p4merge`。
 
 > 本文适合Debian Linux和Mac OS X
